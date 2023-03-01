@@ -1,13 +1,13 @@
 import TaskCard from "./TaskCard"
 
 
-const Tasks= ({tasks}) => {
+const Tasks= ({tasks,handleTaskClick,handleTaskDelete}) => {
 
     
     return(
         
         <div>
-            {tasks.map((task => <TaskCard task={task} key={task.id} />))}
+            {tasks.map((task => <TaskCard task={task} key={task.id} handleTaskClick={handleTaskClick} handleTaskDelete={handleTaskDelete} />))}
         </div>
     )
 }

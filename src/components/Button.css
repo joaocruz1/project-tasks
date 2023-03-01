@@ -9,4 +9,12 @@
 	font-weight: bold;
 	cursor: pointer;
 	border: none;
+	transition: .6s;
     }   
+
+.button:hover{
+	background-color: black;
+	color:chartreuse;
+	border-radius: 5px ;
+	border: 1px solid chartreuse;
+}

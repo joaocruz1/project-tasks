@@ -1,0 +1,54 @@
+.info-container div{
+    display:inline-flexbox;
+    color: rgb(0, 202, 51);
+    align-items: center;
+
+}
+
+
+
+.buttons-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.buttons-container button{
+    margin-left: 15px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+
+.form-container div{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.form-container div input{
+ 
+    height: 40px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: none;
+    width: 1500px;
+	background-color: #444;
+	color: #eee;
+	font-size: 16px;
+
+}
+
+.form-container div button{
+    margin-left: 20px;
+}
+
+.form-container button{
+   width: 90px;
+
+}
+
+
+
